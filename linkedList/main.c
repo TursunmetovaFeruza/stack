@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
+
+
 int main()
 {
-stack* stk;
+    stack* stk;
     stk = create_stack();
     push(stk, 1);
     push(stk, 2);
